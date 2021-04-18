@@ -1,0 +1,75 @@
+*{
+	margin:5px;
+	font-family:Comic Sans MS;
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:40px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color :#000;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color:#000;
+	color:#fff;}
+ul li.active a{
+	background-color:#000;
+	color:#fff
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height:100px;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+.title{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.title h1{
+	color:#000;
+	font-size:70px;
+	font-family:Edwardian Script ITC;
+}
+body
+{
+	background-image:url(../images/laven.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.button{
+	position:absolute;
+	top: 70%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #000;
+	padding: 10px 30px;
+	color:#000;
+	text-decoration:none;
+}
+.btn:hover{
+	background-color:#000;
+	color:#fff;
+}
+.footer h6{
+	color:#000;
+	font-size: 30px;
+	font-family: Monotype Corsiva;
+}

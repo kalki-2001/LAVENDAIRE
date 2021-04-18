@@ -1,0 +1,4 @@
+create table Details(email varchar(50), username varchar(50), password varchar(50));
+select * from Details;
+insert into Details values('ashwithjason@gmail.com','Ashwith','Ashwith@123');
+drop table Details;
